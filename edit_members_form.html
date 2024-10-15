@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Team Member</title>
+    <link rel="stylesheet" href="edit_members_form.css">
+    <link rel="stylesheet" href="theme.css">
+    <link rel="stylesheet" href="font.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="banner-area">
+        <h1>Edit Team Member</h1>
+    </div>
+
+    <div class="form-container">
+        <form>
+        <div id="error-message" ></div>
+        <input type="hidden" id="task-key">
+            <div class="form-row">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter name">
+            </div>
+            <div class="form-row">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter email">
+            </div>
+            <div class="form-row">
+                <label for="password">Password:</label>
+                <input type="text" id="password" name="password" placeholder="Enter password">
+            </div>
+            <button type="submit" id="saveButton" class="save-button">Save</button>
+        </form>
+
+        <script type="module" src="edit_members_form.js"></script>
+        <script src="theme.js"></script>
+        <script src="font.js"></script>
+        <script src="timeout.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-database.js"></script>
+    </div>
+</body>
+</html>

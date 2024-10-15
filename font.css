@@ -1,0 +1,525 @@
+/* Default/Normal Font Styles (this can stay the same) */
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px; /* Normal font size */
+}
+
+h1 {
+    font-size: 48px; /* Normal heading size */
+}
+
+.task-name, .priority, .tag {
+    font-size: 15px; /* Normal text size */
+}
+
+/* Big Font Styles (applied when .big-font class is added to body) */
+
+.big-font h1 {
+    font-size: 60px; /* Larger headings */
+}
+
+.big-font.popup-h2 {
+    font-size: 42px;
+}
+
+.big-font .task-name {
+    font-size: 24px; /* Larger task names */
+}
+
+.big-font .priority, .big-font .tag {
+    font-size: 18px; /* Larger priority and tag text */
+}
+
+.big-font .task-card, .big-font .add-task {
+    font-size: 18px;
+}
+
+.big-font .dropdown-content li {
+    font-size: 18px;
+}
+
+.big-font .filter-dropdown-content li {
+    font-size: 18px;
+}
+
+.big-font .label {
+    font-size: 25px;
+}
+
+.big-font .label {
+    font-size: 25px;
+}
+
+.big-font input[type="text"] {
+    font-size: 20px;
+}
+
+.big-font input[type="email"] {
+    font-size: 20px;
+}
+
+.big-font input[type="password"] {
+    font-size: 20px;
+}
+
+.big-font #task-history .title {
+    font-size: 42px; 
+}
+
+.big-font .sprint-form-container input[type="date"] {
+    font-size: 20px;
+}
+
+.sprint-form-container button {
+    font-size: 20px;
+}
+
+.big-font .save-button {
+    font-size: 22px;
+}
+
+.big-font #login-error-msg {
+    font-size: 18px;
+}
+
+.big-font .input-label {
+    font-size: 18px;
+}
+
+.big-font .login-form-field {
+    font-size: 20px;
+}
+
+.big-font .p {
+    font-size: 28px;
+}
+
+.big-font .view-btn {
+    font-size: 24px;
+}
+
+.big-font .popup-button {
+    font-size: 24px;
+}
+
+.big-font .dropdown-content {
+    font-size: 24px;
+}
+
+.big-font .done-button {
+    font-size: 24px;
+}
+
+.big-font .field-text {
+    font-size: 20px;
+}
+
+.big-font #story-point-of-task {
+    font-size: 20px;
+}
+
+.big-font .form-row input[type="number"] {
+    font-size: 20px;
+}
+
+.big-font .input[type="text"], .dropdown-select {
+    font-size: 24px;
+}
+
+.big-font .input-label {
+    font-size: 18px;
+}
+
+.big-font #menu li {
+    font-size: 18px;
+} 
+
+.big-font .sprint-name{
+    font-size: 24px;
+}
+
+.big-font .normal-info{
+    font-size: 24px;
+}
+
+.big-font .inner-button{
+    font-size: 24px;
+}
+
+.big-font #openFormBtn {
+    font-size: 20px;
+}
+
+.big-font .filter-dropdown-btn {
+    font-size: 18px;
+}
+
+.big-font .dropdown-btn {
+    font-size: 18px;
+}
+
+.big-font .main {
+    font-size: 20px;
+}
+
+/* sprint backlog column */
+.big-font .column {
+    font-size: 20px;
+}
+
+.big-font .form-row label {
+    font-size: 25 px;
+}
+
+.big-font #done-button {
+    font-size: 24px;
+}
+
+.big-font .date-container {
+    font-size: 20px;
+}
+
+.big-font .form-row label {
+    font-size: 24px;
+}
+
+.big-font .popup h2 {
+    font-size: 36px;
+}
+.big-font .description {
+    font-size: 24px;
+}
+
+/* team dashboard admin */
+.big-font .member-name {
+    font-size: 20px;
+}
+
+.big-font .member-info {
+    font-size: 20px;
+}
+
+.big-font .average-time {
+    font-size: 20px;
+}
+
+.big-font .actions {
+    top: 8px;
+}
+
+.big-font .dashboard-content p {
+    font-size: 32px;
+}
+
+.big-font .bar-chart {
+    font-size: 32px;
+}
+
+.big-font .popup-chart h2 {
+    font-size: 32px;
+}
+
+.big-font .chart-popup h2 {
+    font-size: 32px;
+}
+
+.big-font .modal-content {
+    font-size: 20px;
+}
+
+.big-font .modal-content button {
+    font-size: 20px;
+}
+
+.big-font .modal-content input {
+    font-size: 20px;
+}
+
+/* task history */
+.big-font .task-history {
+    font-size: 20px;
+}
+
+.big-font .dropdown-select {
+    font-size: 20px !important;
+}
+
+.big-font .form-row p {
+    font-size: 20px;
+}
+
+.big-font .form-instruction {
+    font-size: 24px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Small Font Styles (applied when .small-font class is added to body) */
+.small-font {
+    --h1: 24px; /* Smaller heading size */
+
+}
+
+.small-font h1 {
+    font-size: 36px; /* Smaller headings */
+}
+
+.small-font .task-name {
+    font-size: 14px; /* Smaller task names */
+}
+
+.small-font .priority, .small-font .tag {
+    font-size: 12px; /* Smaller priority and tag text */
+}
+
+.small-font .task-card, .small-font .add-task {
+    font-size: 14px;
+}
+
+.small-font .dropdown-content li {
+    font-size: 14px;
+}
+
+.small-font .filter-dropdown-content li {
+    font-size: 14px;
+}
+
+.small-font .label {
+    font-size: 15px;
+}
+
+.small-font input[type="text"]{
+    font-size: 14px;
+}
+
+.small-font input[type="email"] {
+    font-size: 14px;
+}
+
+.small-font input[type="password"] {
+    font-size: 14px;
+}
+
+.small-font #task-history .title {
+    font-size: 24px; 
+}
+
+.small-font .sprint-form-container input[type="date"] {
+    font-size: 14px;
+}
+
+.small-font .save-button {
+    font-size: 14px;
+}
+
+.small-font #login-error-msg {
+    font-size: 14px;
+}
+
+.small-font .input-label {
+    font-size: 14px;
+}
+
+.small-font .login-form-field {
+    font-size: 14px;
+}
+
+.small-font .p {
+    font-size: 16px;
+}
+
+.small-font .view-btn {
+    font-size: 14px;
+}
+
+.small-font .popup-button {
+    font-size: 12px;
+}
+
+.small-font .dropdown-content {
+    font-size: 14px;
+}
+
+.small-font .done-button {
+    font-size: 12px;
+}
+
+.small-font .field-text {
+    font-size: 14px;
+}
+
+.small-font #story-point-of-task {
+    font-size: 14px;
+}
+
+.small-font .form-row input[type="number"] {
+    font-size: 14px;
+}
+
+.small-font .input[type="text"], .dropdown-select {
+    font-size: 14px;
+}
+
+.small-font .input-label {
+    font-size: 14px;
+}
+
+.small-font #menu li {
+    font-size: 14px;
+}
+
+.small-font .filter-dropdown-btn {
+    font-size: 14px;
+}
+
+.small-font .dropdown-btn {
+    font-size: 14px;
+}
+
+/* task form label  */
+.small-font .form-row label {
+    font-size: 12px;
+}
+
+/* task history */
+.small-font .task-history {
+    font-size: 14px;
+}
+
+/* sprint board */
+.small-font #openFormBtn {
+    font-size: 14px;
+}
+
+.small-font .sprint-name {
+    font-size: 14px;
+}
+
+.small-font .input[type="date"] {
+    font-size: 14px;
+}
+
+.small-font .normal-info {
+    font-size: 14px;
+}
+
+.small-font .inner-button {
+    font-size: 14px;
+}
+
+/* create sprint form */
+.small-font .modal-content {
+    font-size: 14px;
+}
+
+.small-font .modal-content button {
+    font-size: 14px;
+}
+
+.small-font .modal-content input {
+    font-size: 14px;
+}
+
+.small-font .main {
+    font-size: 14px;
+}
+ 
+/* sprint backlog column */
+.small-font .column {
+    font-size: 14px;
+}
+
+.small-font .label {
+    font-size: 14px;
+}
+
+.small-font #done-button {
+    font-size: 14px;
+}
+
+.small-font .date-container {
+    font-size: 14px;
+}
+
+.small-font .container {
+    font-size: 14px;
+}
+
+/* team dashboard admin */
+.small-font .popup h2 {
+    font-size: 20px;
+}
+
+.small-font .description {
+    font-size: 14px;
+}
+
+.small-font .member-name {
+    font-size: 14px;
+}
+
+.small-font .member-info {
+    font-size: 14px;
+}
+
+.small-font .average-time {
+    font-size: 14px;
+}
+
+.small-font .actions {
+    top: 3px;
+}
+
+.small-font .dashboard-content p {
+    font-size: 20px;
+}
+
+.small-font .bar-chart {
+    font-size: 20px;
+}
+
+.small-font .popup-chart h2 {
+    font-size: 20px;
+}
+
+.small-font .chart-popup h2 {
+    font-size: 20px;
+}
+
+.small-font .dropdown-select {
+    font-size: 14px !important;
+}
+
+.small-font .form-row p {
+    font-size: 14px;
+}
+
+.small-font .form-instruction {
+    font-size: 14px;
+}

@@ -1,0 +1,399 @@
+:root {
+    --banner: url('images/deadpool.png');
+    --task-card-color:#B22222;
+    --button-color: #990000;
+    --slider-color: #000;
+    --add-button-hover-color: #000000;
+    --gradient-one:#ff4949;
+    --gradient-two:#a52c2c;
+    --font-colour: #ffffff;
+    --bar-color-1: #FF0000;  
+    --bar-color-2: #CC0000;  
+    --bar-color-3: #990000; 
+    --bar-color-4: #660000; 
+    --bar-color-5: #4D0000;  
+    --bar-color-6: #333333; 
+    --bar-color-7: #000000;  
+}
+
+.theme-deadpool {
+    --banner: url('images/deadpool.png');
+    --task-card-color: #B22222;  
+    --button-color: #990000;
+    --slider-color: #000000;
+    --add-button-hover-color: #000000;
+    --gradient-one:#ff4949;
+    --gradient-two:#a52c2c;
+    --font-colour: #ffffff;
+    --bar-color-1: #FF0000;  
+    --bar-color-2: #CC0000;  
+    --bar-color-3: #990000; 
+    --bar-color-4: #660000; 
+    --bar-color-5: #4D0000;  
+    --bar-color-6: #333333; 
+    --bar-color-7: #000000;  
+}
+
+.theme-wolverine {
+    --banner: url('images/wolverine.png');
+    --task-card-color: #FDDA0D;
+    --button-color:  #4A5E7A;
+    --slider-color: #4A5E7A;
+    --add-button-hover-color:#4A5E7A;
+    --gradient-one:#e7d50c;
+    --gradient-two:#b49900;
+    --font-colour: #4A5E7A;
+    --bar-color-1: #FFD700;  
+    --bar-color-2: #FFCC00; 
+    --bar-color-3: #E2B007; 
+    --bar-color-4: #4A5E7A; 
+    --bar-color-5: #30475E;  
+    --bar-color-6: #1F2A3A;  
+    --bar-color-7: #000000; 
+}
+
+.theme-ocean {
+    --banner: url('images/ocean.png');
+    --task-card-color: #C5EEFF;
+    --button-color: #669bb1;
+    --slider-color: #669bb1;
+    --add-button-hover-color: #669bb1;
+    --gradient-one:#38dbff;
+    --gradient-two:#458ab8;
+    --font-colour: #000000;
+    --bar-color-1: #C5EEFF;
+    --bar-color-2: #A2D2FF;
+    --bar-color-3: #89CFFD;
+    --bar-color-4: #62B6CB;
+    --bar-color-5: #1E81B0;
+    --bar-color-6: #145DA0;
+    --bar-color-7: #0C2D48;
+}
+
+.theme-sakura{
+    --banner: url('images/sakura.png');
+    --task-card-color: #FFD6D6;
+    --button-color: #2F81A7;
+    --slider-color: #2F81A7;
+    --add-button-hover-color: #2F81A7;
+    --gradient-one:#fcacac;
+    --gradient-two:#f28282;
+    --font-colour: #000000;
+    --bar-color-1: #FFE3E3; 
+    --bar-color-2: #FFC4C4; 
+    --bar-color-3: #FFB2B2;
+    --bar-color-4: #FF9F9F; 
+    --bar-color-5: #FF8B8B; 
+    --bar-color-6: #FF7575;
+    --bar-color-7: #FF5A5A; 
+}
+
+.banner-area {
+    background-image: var(--banner);
+}
+
+.task-card {
+    background-color: var(--task-card-color);
+    color: var(--font-colour)
+}
+
+.task-card h2, .task-card p, .task-card span {
+    color: var(--font-colour); 
+}
+
+.priority, .tag {    
+    color: white !important; 
+    text-transform: uppercase; 
+}
+
+.add-task{
+    background-color: #ccc;
+}
+
+.add-button:hover{
+    background-color: var(--add-button-hover-color);
+}
+
+.add-task:hover {
+    background-color: var(--add-button-hover-color);
+}
+
+
+/* Button Styles */
+.button {
+    background-color: var(--button-color);
+}
+
+.button:hover {
+    background-color: var(--add-button-hover-color);
+}
+
+/* Slider Styles */
+
+.range::-webkit-slider-thumb {
+    box-shadow: -407px 0 0 400px var(--slider-color);
+}
+
+#story-point-range::-webkit-slider-thumb {
+    background-color: var(--task-card-color);
+}
+
+/* Add Button (Progress Bar) Hover Effect */
+.add-button:hover {
+    background-color: var(--add-button-hover-color);
+}
+
+.none {
+    background-color: var(--task-card-color);
+}
+
+.view-btn {
+    background: linear-gradient(90deg, var(--gradient-one), var(--gradient-two));
+}
+
+.selection-card{
+    background: linear-gradient(90deg, var(--gradient-one), var(--gradient-two));
+}
+
+.popup-button{
+    background-color: var(--button-color);
+}
+
+.done-button {
+    background-color: var(--button-color);
+}
+
+input.error, select.error {
+    border-color: var(--button-color);
+}
+
+#openFormBtn {
+    background-color: var(--button-color);
+}
+
+#openFormBtn:hover {
+    background-color: var(--button-color);
+}
+    
+.modal-content {
+    border: 1px solid var(--button-color);
+}
+
+.modal-content label {
+    color: var(--font-colour);
+}
+
+.modal-content label {
+    color: var(--button-color);
+}
+
+.modal-content button:hover {
+    background-color: var(--button-color);
+}
+
+.modal-content button {
+    background-color: var(--button-color);
+}
+
+.close:hover,
+.close:focus {
+    color: var(--button-color);
+}
+
+.title-box{
+    width: 100%;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: var(--slider-color);
+}
+
+.close {
+    color: var(--button-color);
+}
+
+#popupOverlay #popup .popup-content .title h2 {
+   background-color: var(--button-color);
+}
+
+.theme-deadpool #popupOverlay #popup .popup-content .title h2 {
+    background-color: var(--slider-color);
+}
+
+.popup-chart h2 {
+    background-color: var(--button-color);
+}
+
+.popup button {
+    background-color: var(--button-color);
+}
+
+.chart-popup h2 {
+    background-color: var(--slider-color);
+}
+
+.member-box{
+    background-color: var(--task-card-color);
+}
+
+.sprint-box {
+    background-color: var(--task-card-color);
+}
+
+.completed-sprint {
+    background-color: rgba(123, 123, 123, 0.564);
+}
+
+.add-task {
+    background-color: #ccc;
+}
+
+.add-button:hover {
+    background-color: var(--add-button-hover-color);
+}
+
+.delete-icon {
+    color: var(--font-colour);
+}
+
+
+.theme-deadpool .sprint-name {
+    color: white;
+}
+
+.theme-deadpool .normal-info {
+    color: white;
+}
+
+.theme-deadpool .chart-icon {
+    color: white;
+}
+
+:root .sprint-name {
+    color: white;
+}
+
+:root .normal-info {
+    color: white;
+}
+
+:root .title-box .sprint-name{
+    color: white;
+}
+
+:root .title-box .normal-info {
+    color: white;
+}
+
+:root .chart-icon {
+    color: white;
+}
+
+.theme-wolverine .sprint-name {
+    color: black;
+}
+
+.theme-wolverine .normal-info {
+    color: black;
+}
+
+.theme-wolverine .chart-icon {
+    color: black;
+}
+
+.theme-ocean .sprint-name {
+    color: black;
+}
+
+.theme-ocean .normal-info {
+    color: black;
+}
+
+.theme-ocean .chart-icon {
+    color: black;
+}
+
+.theme-sakura .sprint-name {
+    color: black;
+}
+
+.theme-sakura .normal-info {
+    color: black;
+}   
+
+.theme-sakura .chart-icon {
+    color: black;
+}
+
+.sprint-box.completed-sprint .sprint-name, 
+.sprint-box.completed-sprint .normal-info,
+.sprint-box.completed-sprint .chart-icon { 
+    color: black;
+}
+
+#login-form-submit {
+    background-color: var(--button-color);
+}
+
+
+.sprint-form-container button{
+    background-color: var(--button-color);
+}
+
+.sprint-form-container button:hover{
+    background-color: var(--add-button-hover-color);
+}
+
+
+button.save-button {
+    background-color: var(--button-color);
+}
+
+
+button.save-button:hover {
+    background-color: var(--add-button-hover-color);
+}
+
+.completed-task{
+    background-color: rgba(123, 123, 123, 0.909);
+}
+
+.theme-deadpool .member-box {
+    color: white;
+}
+
+.theme-deadpool .member-box i {
+    color: white;
+}
+
+:root .member-box {
+    color: white;
+}
+
+:root .member-box i {
+    color: white;
+}
+
+.theme-wolverine .member-box {
+    color: black;
+}
+
+.theme-wolverine .member-box i {
+    color: black;
+}
+
+.theme-ocean .member-box {
+    color: black;
+}
+
+.theme-ocean .member-box i {
+    color: black;
+}
+
+.theme-sakura .member-box {
+    color: black;
+}
+
+.theme-sakura .member-box i {
+    color: black;
+}
+

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="stylesheet" href="navigator.css">
+    <link rel="stylesheet" href="theme.css">
+    <link rel="stylesheet" href="font.css">
+</head>
+<body>
+    <nav>
+
+        <div class="menu-icon" onclick="toggleMenu()">☰</div>
+        <ul id="menu" class="menu">
+            <li><a href="sprint_board.html">Sprint Board</a></li>
+            <li><a href="product_backlog.html">Product Backlog</a></li>
+            <li><a id="team-dashboard-link" href="#">Team Board</a></li>
+            
+            <li class="theme-select">
+                <div class="theme-option" onclick="changeTheme('deadpool')">
+                    <span class="theme-circle deadpool"></span>Deadpool
+                </div>
+                <div class="theme-option" onclick="changeTheme('wolverine')">
+                    <span class="theme-circle wolverine"></span>Wolverine
+                </div>
+                <div class="theme-option" onclick="changeTheme('ocean')">
+                    <span class="theme-circle ocean"></span>Ocean
+                </div>
+                <div class="theme-option" onclick="changeTheme('sakura')">
+                    <span class="theme-circle sakura"></span>Sakura
+                </div>
+            </li>
+
+            <li class="font-select">
+                <div class="font-option" onclick="changeFont('small')">
+                    Small Font Size
+                </div>
+                <div class="font-option" onclick="changeFont('medium')">
+                    Medium Font Size
+                </div>
+                <div class="font-option" onclick="changeFont('big')">
+                    Large Font Size
+                </div>
+            </li>
+            
+            <li><a href="#" onclick="signOut()"><i class="fas fa-sign-out-alt"></i> Sign Out</a></li>
+        </ul>
+        
+    </nav>
+    <script src="sprint_board.js" defer></script>
+    <script src="navigator.js" defer></script>
+</body>
+</html>

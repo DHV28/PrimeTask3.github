@@ -1,0 +1,145 @@
+/* Standard CSS */
+.default-z-index {
+    z-index: 1;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    background-color: #ffffff;
+    border: none;
+    box-shadow: none;
+    padding-bottom: 50px;
+    position: relative;
+}
+
+#menu-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.banner-area {
+    background-image: url('images/deadpool_image.png');
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 140px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    color: white;
+    margin: 0;
+}
+
+.dashboard-content {
+    text-align: left;
+    padding: 20px 30px;
+}
+
+.dashboard-content p {
+    font-size: 26px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 80px;
+    color: #333;
+}
+
+#chart-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    height: 100%;
+    margin: 30px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f4f4f4;
+}
+
+#myChart {
+    width: 200%;
+    height: 100%;
+    font: 20px 'Poppins', sans-serif;
+}
+
+.bar-chart {
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.bar-chart button {
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.popup-overlay {
+    display: none; /* Hidden by default */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+}
+
+/* Style for the Chart Popup */
+.popup-chart {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 70%;
+    height: 70%;
+    overflow: auto;
+}
+
+/* Chart Popup title styling */
+.popup-chart h2 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 15px;
+    padding: 15px;
+    background-color: #A50000;
+    color: #fff;
+    text-align: center;
+    border-radius: 8px 8px 0 0;/* Rounded corners for consistency */
+}
+
+
+/* Close button for the popup */
+.popup-chart .close {
+    position: absolute;
+    top: 0px;
+    right: 10px;
+    font-size: 30px;
+    cursor: pointer;
+    color: #333;
+}
+
+#myChart {
+    align-items: center;
+}

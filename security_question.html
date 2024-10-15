@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Security Questions</title>
+    <link rel="stylesheet" href="security_question.css">
+    <link rel="stylesheet" href="theme.css">
+    <link rel="stylesheet" href="font.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="banner-area">
+        <h1>Security Questions</h1>
+    </div>
+
+    <div class="form-container">
+
+        <p class="form-instruction">Please answer all questions.</p>
+
+        <form>
+            <div class="form-row">
+                <p class="question-number">Question 1</p>
+                <p class="question-text">What was your what?</p>
+                <input type="text" id="answer1" name="answer1" placeholder="Enter your answer">
+            </div>
+
+            <div class="form-row">
+                <p class="question-number">Question 2</p>
+                <p class="question-text">What is your what?</p>
+                <input type="text" id="answer2" name="answer2" placeholder="Enter your answer">
+            </div>
+
+            <div class="form-row">
+                <p class="question-number">Question 3</p>
+                <p class="question-text">What is your what?</p>
+                <input type="text" id="answer3" name="answer3" placeholder="Enter your answer">
+            </div>
+
+            <button type="submit" id="saveButton" class="save-button">Done</button>
+        </form>
+        <script src="theme.js"></script>
+        <script src="font.js"></script>
+        <script src="timeout.js"></script>
+        <script type="module" src="security_question.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-database.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+    </div>
+</body>
+</html>
