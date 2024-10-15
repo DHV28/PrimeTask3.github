@@ -892,7 +892,7 @@ document.addEventListener('DOMContentLoaded', function ()
             } else {
                 // If no valid user is found, redirect to the login page
                 alert("You are not logged in. Redirecting to login page.");
-                window.location.href = "main_login.html"; // Redirect to login if no user is found
+                window.location.href = "index.html"; // Redirect to login if no user is found
             }
         });
     } else {
