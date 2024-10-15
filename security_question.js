@@ -103,7 +103,7 @@ document.getElementById('saveButton').addEventListener('click', (e) =>
                 else 
                 {
                     alert('Incorrect answers. Redirecting back to login. ');
-                    window.location.href = 'main_login.html';
+                    window.location.href = 'index.html';
                 }
             })
         }
