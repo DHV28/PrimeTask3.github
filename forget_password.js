@@ -53,7 +53,7 @@ document.querySelector('form').addEventListener('submit', function (event) {
                     alert("You have successfully changed the password.");
         
                     // Redirect to another page after successful password change
-                    window.location.href = "main_login.html";
+                    window.location.href = "index.html";
                 }).catch((error) => {
                     alert("Error updating password: " + error.message);
                 });
@@ -117,7 +117,7 @@ document.querySelector('form').addEventListener('submit', function (event) {
 //             alert("You have successfully changed the password.");
 // 
 //             // Redirect to another page after successful password change
-//             window.location.href = "main_login.html";
+//             window.location.href = "index.html";
 //         }).catch((error) => {
 //             alert("Error updating password: " + error.message);
 //         });
